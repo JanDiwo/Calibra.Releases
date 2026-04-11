@@ -4,23 +4,23 @@
     <title>Calibra Updates</title>
     <item>
       <title>Version 0.1.0</title>
-      <pubDate>Sat, 12 Apr 2026 00:00:00 +0200</pubDate>
-      <sparkle:version>1</sparkle:version>
+      <pubDate>Sat, 12 Apr 2026 12:00:00 +0200</pubDate>
+      <sparkle:version>2</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
         <h2>Calibra 0.1.0</h2>
         <ul>
-          <li>Lizenzierungssystem</li>
-          <li>Sparkle Auto-Updates</li>
-          <li>Developer ID signiert + notarisiert</li>
+          <li>Security Hardening (HMAC Cache, Code Signing Check, Certificate Pinning)</li>
+          <li>LicenseGate Service (periodische Revalidierung)</li>
+          <li>Lizenzierungssystem + Sparkle Auto-Updates</li>
         </ul>
       ]]></description>
       <enclosure
         url="https://github.com/JanDiwo/Calibra.Releases/releases/download/v0.1.0/Calibra-0.1.0.dmg"
-        length="8869640"
+        length="10232950"
         type="application/octet-stream"
-        sparkle:edSignature="jA58s+gHrLK7A/Jw1AMmGOv+fNnyXHZwyzOPE6gS6uR/XU2c0lUkNDlVZ4dpDbOKC21CUHq6OpprG+n4+zEICA=="
+        sparkle:edSignature="7tJWMUaP8xJ87WnixB4LpruOt+pHt7vyJOCEcqFVIXlCtXJSHUQexmMrxF1xPGWDuvsKIEjBMXb+dSW2FGF3DQ=="
       />
     </item>
   </channel>
