@@ -3,6 +3,31 @@
   <channel>
     <title>Calibra Updates</title>
     <item>
+      <title>Version 0.1.3</title>
+      <pubDate>Tue, 14 Apr 2026 17:54:02 +0200</pubDate>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>0.1.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Calibra 0.1.3</h2>
+        <ul>
+          <li>Speichern (Cmd+S) im Hex-Editor zeigt jetzt den Versions-Dialog (neue Version oder aktuelle überschreiben)</li>
+          <li>Fix: Speichern erzeugte in manchen Fällen ein leeres Duplikat-Projekt in der Mandant-Liste</li>
+          <li>Fix: Öffnen einer frisch gespeicherten Version schlug mit &quot;Object not found in package&quot; fehl</li>
+          <li>Fix: Werte-Änderungen im Kennfeld werden sofort im Editor sichtbar (betraf besonders Selection-Sheets)</li>
+          <li>Fix: Größenänderung in den Kennfeld-Eigenschaften füllt jetzt neue Zellen korrekt mit Daten</li>
+          <li>2D-Graph: Performance beim Scrollen auf Modified-Versionen deutlich verbessert</li>
+          <li>2D-Graph: überflüssige gestrichelte Umrandung um MapAreas entfernt (Farbe der Waveform zeigt Diff bereits)</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/JanDiwo/Calibra.Releases/releases/download/v0.1.3/Calibra-0.1.3.dmg"
+        length="10268059"
+        type="application/octet-stream"
+        sparkle:edSignature="PNl5Hhul4FITX5ePVM3XxI9LMokbOYVeq+CJXG+YBeJgwDeNJzPt1C2xHJF0yXwespWyTUsAUT5gRoyipq/zCQ=="
+      />
+    </item>
+    <item>
       <title>Version 0.1.2</title>
       <pubDate>Tue, 14 Apr 2026 13:30:02 +0200</pubDate>
       <sparkle:version>4</sparkle:version>
