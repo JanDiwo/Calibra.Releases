@@ -3,6 +3,29 @@
   <channel>
     <title>Calibra Updates</title>
     <item>
+      <title>Version 0.1.1</title>
+      <pubDate>Tue, 14 Apr 2026 09:28:25 +0200</pubDate>
+      <sparkle:version>3</sparkle:version>
+      <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Calibra 0.1.1</h2>
+        <ul>
+          <li>Mehrsprachige Oberfläche (Deutsch/Englisch) via String Catalogs</li>
+          <li>Projekt-Metadaten: neues Feld &quot;Ausführung&quot; (ersetzt &quot;Ausstattung&quot;) im Fahrzeug-Block</li>
+          <li>Mehrere Kennfelder derselben Datei können jetzt gleichzeitig geöffnet werden</li>
+          <li>Datei-Menü: doppelter Eintrag entfernt</li>
+          <li>Editor-Dock: &quot;ECU-Kandidaten&quot;-Sektion entfernt (ohne Mehrwert)</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/JanDiwo/Calibra.Releases/releases/download/v0.1.1/Calibra-0.1.1.dmg"
+        length="10264907"
+        type="application/octet-stream"
+        sparkle:edSignature="fhn5nLNyKgELmUUvDKu+7iWpVNaQygcqhWKhLbcDAY8AfDhEhAtfFYlrLcyPbPspp3TaS3D8PgrLkqa7nHfeAQ=="
+      />
+    </item>
+    <item>
       <title>Version 0.1.0</title>
       <pubDate>Sat, 12 Apr 2026 12:00:00 +0200</pubDate>
       <sparkle:version>2</sparkle:version>
