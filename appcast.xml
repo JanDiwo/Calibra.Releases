@@ -3,6 +3,30 @@
   <channel>
     <title>Calibra Updates</title>
     <item>
+      <title>Version 0.1.2</title>
+      <pubDate>Tue, 14 Apr 2026 13:30:02 +0200</pubDate>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Calibra 0.1.2</h2>
+        <ul>
+          <li>.clbx-Pakete erscheinen im Finder jetzt als Datei mit App-Icon (statt als Ordner)</li>
+          <li>BIN-Import erzeugt nicht mehr versehentlich ein zweites, leeres Projekt</li>
+          <li>Kennfeld-Erstellen-Dialog: Datenbreite (8/16/32-Bit, Float) und Zeilen frei wählbar</li>
+          <li>Eigenschaften-Dialog öffnet sich direkt nach dem Erstellen eines Kennfelds (kein Workaround mehr nötig)</li>
+          <li>Größenänderung in den Kennfeld-Eigenschaften wirkt sofort live im Editor; Region wächst/schrumpft automatisch mit</li>
+          <li>Mehrere Kennfelder derselben Datei können parallel geöffnet werden (Fix aus 0.1.1 bestätigt)</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/JanDiwo/Calibra.Releases/releases/download/v0.1.2/Calibra-0.1.2.dmg"
+        length="10263684"
+        type="application/octet-stream"
+        sparkle:edSignature="CpzhSP5kbp4nyZ3034Ft/nBnahZQhr6CZ9N/A44iPHznQgryxYae64WSH0DT3SmPgO8S/Im572god1yXcd79Aw=="
+      />
+    </item>
+    <item>
       <title>Version 0.1.1</title>
       <pubDate>Tue, 14 Apr 2026 09:28:25 +0200</pubDate>
       <sparkle:version>3</sparkle:version>
