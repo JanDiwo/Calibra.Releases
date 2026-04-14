@@ -3,6 +3,30 @@
   <channel>
     <title>Calibra Updates</title>
     <item>
+      <title>Version 0.1.4</title>
+      <pubDate>Tue, 14 Apr 2026 19:07:30 +0000</pubDate>
+      <sparkle:version>6</sparkle:version>
+      <sparkle:shortVersionString>0.1.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Calibra 0.1.4</h2>
+        <ul>
+          <li>Automatische Update-Prüfung: Calibra prüft beim Start und einmal täglich im Hintergrund auf neue Versionen — manuelles „Nach Updates suchen" nicht mehr nötig</li>
+          <li>Einmaliger Hinweis beim ersten Start, dass macOS die Calibra-Hintergrundaktualisierung unter „Systemeinstellungen → Allgemein → Anmeldeobjekte &amp; Erweiterungen" freigeschaltet werden muss</li>
+          <li>Lizenzprüfung im Hintergrund nur noch alle 48 h statt alle 4 h — entlastet Netzwerk und Server</li>
+          <li>Kennfeld-Editor: Interpolation (Kontextmenü) erzeugte am Rand eines Kennfelds falsche Werte — jetzt mit klarer Fehlermeldung, wenn nicht auf allen Seiten Referenzzellen vorhanden sind</li>
+          <li>Kennfeld-Editor: Direkteingabe, Paste und Interpolation schreiben nun auch im Delta-/Prozent-Modus korrekte Werte relativ zum Original</li>
+          <li>Fix: „Kennfeld öffnen"-Button in Map-Area-Sheet und Editor-Dock nutzt ein SF-Symbol, das auf macOS 15.0 verfügbar ist (Symbol wurde vorher nicht angezeigt)</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/JanDiwo/Calibra.Releases/releases/download/v0.1.4/Calibra-0.1.4.dmg"
+        length="10276462"
+        type="application/octet-stream"
+        sparkle:edSignature="6FJD10iXLiQ7D6aBJMfOXRk4tao493U+uBVOZUaEdew+TXNq12ZmLXfvcOqUSoEFdn1axLcHVyAec83gDyZiCg=="
+      />
+    </item>
+    <item>
       <title>Version 0.1.3</title>
       <pubDate>Tue, 14 Apr 2026 17:54:02 +0200</pubDate>
       <sparkle:version>5</sparkle:version>
