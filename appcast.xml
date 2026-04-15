@@ -3,6 +3,47 @@
   <channel>
     <title>Calibra Updates</title>
     <item>
+      <title>Version 0.1.5</title>
+      <pubDate>Wed, 15 Apr 2026 21:45:17 +0000</pubDate>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>0.1.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Calibra 0.1.5</h2>
+        <p><strong>Hinweis:</strong> Das Paketformat wurde grundlegend überarbeitet. Bestehende Projekte aus älteren Versionen lassen sich mit 0.1.5 nicht mehr öffnen.</p>
+        <h3>Neues .clbx-Paketformat</h3>
+        <ul>
+          <li>.clbx-Dateien sind jetzt ein einzelnes verschlüsseltes SQLite-File statt eines Bundle-Verzeichnisses — „Paketinhalte anzeigen" im Finder entfällt</li>
+          <li>Alle Inhalte (Objekte, Metadaten, Fingerprint-Cache) werden AES-256-GCM-verschlüsselt und Zstd-komprimiert; nur Projektname und IDs bleiben für Folder-Scans im Klartext</li>
+          <li>CRC32-Fingerprint-Cache ist jetzt persistent und beschleunigt Ähnlichkeits-Suchen spürbar</li>
+          <li>Legacy-WAL-Side-Car-Dateien (.clbx-wal, .clbx-shm) werden beim ersten Öffnen automatisch aufgeräumt</li>
+        </ul>
+        <h3>Bosch-Kennfeld-Scanner</h3>
+        <ul>
+          <li>Neuer WinOLS-style Länge-Marker-basierter Scanner mit deutlich besseren Kennfeld-Treffern</li>
+          <li>Automatische Kennfeld-Vorschläge direkt nach dem ROM-Import und im Import-Wizard</li>
+          <li>WinOLS-Overlays und sinnvolle Dezimal-Standardwerte</li>
+        </ul>
+        <h3>Editor</h3>
+        <ul>
+          <li>Werte in 2D- und 3D-Kennfeld-Ansichten lassen sich per Drag bearbeiten</li>
+          <li>Drag-to-edit im Hex-Editor 2D; Parity-Features in der Textansicht</li>
+        </ul>
+        <h3>Fixes</h3>
+        <ul>
+          <li>„Ungesicherte Änderungen"-Dialog respektiert das macOS-3-Button-Limit</li>
+          <li>Bootstrap und Workspace-Wechsel sind jetzt idempotent (keine Doppel-Öffnungen mehr)</li>
+          <li>Kennfeld-Eigenschaften erlauben 0 Dezimalstellen und runden bei 0 korrekt auf</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/JanDiwo/Calibra.Releases/releases/download/v0.1.5/Calibra-0.1.5.dmg"
+        length="10499670"
+        type="application/octet-stream"
+        sparkle:edSignature="fTAaQgVSs0mzP9awQKvh2H7vs38rFZ21qp+0lRixeVOUs8SqsWiuJXraxO9deJVAcyqCAQOwGTWnhEtmF4UCCA=="
+      />
+    </item>
+    <item>
       <title>Version 0.1.4</title>
       <pubDate>Tue, 14 Apr 2026 19:07:30 +0000</pubDate>
       <sparkle:version>6</sparkle:version>
