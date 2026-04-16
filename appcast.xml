@@ -3,6 +3,38 @@
   <channel>
     <title>Calibra Updates</title>
     <item>
+      <title>Version 0.1.6</title>
+      <pubDate>Thu, 16 Apr 2026 13:39:17 +0000</pubDate>
+      <sparkle:version>8</sparkle:version>
+      <sparkle:shortVersionString>0.1.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Calibra 0.1.6</h2>
+        <h3>Editor-Dock</h3>
+        <ul>
+          <li>Dock lässt sich per Pin-Button fixieren — bleibt dauerhaft sichtbar statt beim Panel-Drag auszublenden</li>
+          <li>Panel-Verschieben und -Resize bleiben weiterhin flüssig; das Pinning wurde bewusst minimal-invasiv am Root umgesetzt, damit keine zusätzliche Tracking-Schicht über dem Canvas liegt</li>
+        </ul>
+        <h3>Workspace</h3>
+        <ul>
+          <li>Sekundärfenster (Version-Picker, neues Projekt) sind jetzt an den Canvas gebunden und folgen dem Hauptfenster</li>
+          <li>Version-Picker öffnet sich als Sheet über der Projektliste statt in einem eigenen Fenster</li>
+          <li>Neuer „Projekte vorbereiten"-Sheet beim Workspace-Öffnen: Fingerprint-Prefetch im Hintergrund für schnellere Similar-Matches</li>
+          <li>Fingerprint-Index liegt jetzt lokal pro Maschine (`~/Library/Application Support/`) statt im Workspace-Root — macht gemeinsame Workspaces über iCloud/Dropbox sauberer</li>
+        </ul>
+        <h3>Fixes</h3>
+        <ul>
+          <li>Umbenannte .clbx-Dateien lassen sich wieder öffnen — der Pfad wird jetzt über `scan_state` aufgelöst statt auf dem alten Namen zu beharren</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/JanDiwo/Calibra.Releases/releases/download/v0.1.6/Calibra-0.1.6.dmg"
+        length="10538900"
+        type="application/octet-stream"
+        sparkle:edSignature="uk7cM/fPtFdNKar3LZQEddS0KGjl7upf+ImQI57qUn5GvkCfa94EeDdMR0hu4bhW8Rh4Z4A1E5f06NleHCcjBg=="
+      />
+    </item>
+    <item>
       <title>Version 0.1.5</title>
       <pubDate>Wed, 15 Apr 2026 21:45:17 +0000</pubDate>
       <sparkle:version>7</sparkle:version>
