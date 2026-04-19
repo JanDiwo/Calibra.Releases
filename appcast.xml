@@ -3,6 +3,39 @@
   <channel>
     <title>Calibra Updates</title>
     <item>
+      <title>Version 0.1.7</title>
+      <pubDate>Sun, 19 Apr 2026 09:32:03 +0000</pubDate>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>0.1.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Calibra 0.1.7</h2>
+        <h3>Kopplung (Koppler)</h3>
+        <ul>
+          <li>Neuer WinOLS-ähnlicher Kopplungs-Dialog: Klick auf „Panel koppeln" öffnet sofort eine Auswahl mit Partner-Liste und Adressverschiebung (Δ)</li>
+          <li>Δ-Quick-Buttons: <strong>0</strong>, <strong>Automatisch</strong>, <strong>Cursor</strong> (Δ aus Cursor-Differenz), <strong>Scrollbar</strong> (Δ aus Scroll-Differenz)</li>
+          <li>Δ wird auf alle Sync-Pfade angewendet — zwei Files mit Header-Versatz bleiben jetzt sauber synchronisiert</li>
+        </ul>
+        <h3>Sync-Verbesserungen für gekoppelte Panels</h3>
+        <ul>
+          <li>Spaltenbreite (M/W-Tasten) wird jetzt auf den Partner übertragen</li>
+          <li>Vollständiger Graph2D-Zoom-Sync: samplesPerPixel, Y-Achsen-Range und horizontale Divisions</li>
+          <li>Kennfeld-Sprung (Rechtsklick), Diff-Navigation und Such-Navigation springen jetzt auch auf dem Partner-Panel — bisher hing das am Scroll-Sync-Seiteneffekt und ging verloren, wenn das Ziel schon sichtbar war</li>
+          <li>Byte-Transfer (Pfeile in der Koppel-Leiste + Dock) berücksichtigt Δ und verwirft Edits außerhalb der Partner-Datei</li>
+        </ul>
+        <h3>Englische Lokalisierung</h3>
+        <ul>
+          <li>Englische Übersetzungen für die Coupling-Dialog-Strings ergänzt</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/JanDiwo/Calibra.Releases/releases/download/v0.1.7/Calibra-0.1.7.dmg"
+        length="10612216"
+        type="application/octet-stream"
+        sparkle:edSignature="6cqwT+CkL8zu6Qnt316IszxaTMWBPu4vZTGHMKWOo5QkBqNyiETGXn6p57d7cX0dI2tpWu3FypCOGE3ePw0/Cw=="
+      />
+    </item>
+    <item>
       <title>Version 0.1.6</title>
       <pubDate>Thu, 16 Apr 2026 13:39:17 +0000</pubDate>
       <sparkle:version>8</sparkle:version>
