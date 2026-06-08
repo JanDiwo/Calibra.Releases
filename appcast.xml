@@ -3,6 +3,27 @@
   <channel>
     <title>Calibra Updates</title>
     <item>
+      <title>Version 0.1.8</title>
+      <pubDate>Mon, 08 Jun 2026 21:31:42 +0000</pubDate>
+      <sparkle:version>10</sparkle:version>
+      <sparkle:shortVersionString>0.1.8</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Calibra 0.1.8</h2>
+        <h3>Wichtiger Lizenz-Hotfix</h3>
+        <ul>
+          <li>Lizenzvalidierung schlug fehl („keine Verbindung"), weil das fest verdrahtete TLS-Zertifikat des Lizenzservers veraltet war</li>
+          <li>Pinning hängt jetzt an Let's-Encrypt-Zwischen- und Wurzelzertifikaten — überlebt zukünftige Zertifikat-Rotationen, ohne neuen App-Build zu erzwingen</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/JanDiwo/Calibra.Releases/releases/download/v0.1.8/Calibra-0.1.8.dmg"
+        length="10606491"
+        type="application/octet-stream"
+        sparkle:edSignature="iKlen060Q2YRAbb2lzYyLnmAi7YhLDBYxkiZbx0zCdr6nUVbr//uPXINUV0PUkxbAO4+IIX5xrh8akwCtJ/SAQ=="
+      />
+    </item>
+    <item>
       <title>Version 0.1.7</title>
       <pubDate>Sun, 19 Apr 2026 09:32:03 +0000</pubDate>
       <sparkle:version>9</sparkle:version>
